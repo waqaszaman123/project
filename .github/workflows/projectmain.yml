@@ -36,6 +36,6 @@ jobs:
     - name : Install Surge
       run : npm install --global surge
     - name : Deploy to Surge
-      run : surge ./build project.surge.sh ${{ secrets.WAQAS_ZAMANN }}
+      run : surge ./build project-waqas.surge.sh ${{ secrets.WAQAS_ZAMANN }}
  
         
