@@ -2,8 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return <div>hello from app.js</div>
+function App(props) {
+  return <div>hello from app.js {PushSubscriptionOptions.name}
+
+  </div>
 }
 
 export default App;
